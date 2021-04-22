@@ -42,7 +42,7 @@ TIMEOUT      = '-t=120000'                                        # Timeout opti
 TEST_DIR     = 'src/test/resources/immutable-synthesis/paper-benchmarks/'   # Root directory for the tests
 CSV_IN       = 'stats.csv'                                        # Intermediate CSV file produced by suslik
 CSV_TEMP     = 'stats-temp.csv'                                   # Intermediate CSV file produced by suslik
-EVAL_FOLDER  = 'evaluation-utils'                                 # teh folder with most of the eval utils and stats
+EVAL_FOLDER  = 'evaluation-utils'                                 # the folder with most of the eval utils and stats
 RESULTS      = EVAL_FOLDER + '/all_results'                       # Output file with synthesis results
 DEFCONFIG    = ('def', '')                                        # Run with default configuration
 METACONFIG   = [DEFCONFIG]                                        # Configurations
